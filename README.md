@@ -65,7 +65,7 @@ If you found this work useful, please consider citing it as
 ```
 @article{lyu2026coreset,
   title={A Topology-Preserving Coreset for Kernel Regression in Scientific Visualization},
-  author={Lyu, Weiran and Gorski, Nathaniel and M. Phillips, Jeff and Wang, Bei},
+  author={Lyu, Weiran and Gorski, Nathaniel and Phillips, Jeff M. and Wang, Bei},
   journal={IEEE Transactions on Visualization and Computer Graphics},
   year={2026}
 }
