@@ -44,7 +44,7 @@ pip install numpy torch vtk pyevtk scikit-learn pandas
 
 To optimize coreset for kernel regression using gradient descent, use command
 ```
-python clip.py <dataName> <sigma> <learning_rate> <run_KR_S> <run_random> <randomSample>
+python coreset_kr_2d.py <dataName> <sigma> <learning_rate> <run_KR_S> <run_random> <randomSample>
 ```
 
 **Parameters:**
@@ -63,12 +63,14 @@ python coreset_kr_2d.py GTOPO-ME 5 1 True True True
 ## CITATION
 
 If you found this work useful, please consider citing it as
+```
 @article{lyu2026coreset,
   title={A Topology-Preserving Coreset for Kernel Regression in Scientific Visualization},
   author={Lyu, Weiran and Gorski, Nathaniel and M. Phillips, Jeff and Wang, Bei},
   journal={IEEE Transactions on Visualization and Computer Graphics},
   year={2026}
 }
+```
 
 ## Notes
 
