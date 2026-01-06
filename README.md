@@ -48,13 +48,13 @@ python coreset_kr_2d.py <dataName> <sigma> <learning_rate> <run_KR_S> <run_rando
 ```
 
 **Parameters:**
-- `dataName`: Name of the dataset (e.g., 'GTOPO-ME', 'CESM')
+- `dataName`: Name of the dataset (e.g., 'GTOPO-ME')
 - `sigma`: Kernel bandwidth parameter
 - `learning_rate`: Learning rate for optimization
 - `run_opt`: Boolean flag to run coreset optimization
 - `run_random`: Boolean flag to run GR baseline
 - `run_randomSample`: Boolean flag to run RS baseline
-- `scalarfield`: Name of the scalar field in VTK files (e.g., 'scalar', 'magnitude')
+- `scalarfield`: Name of the scalar field in VTK files (e.g., 'scalar')
 
 ### Example
 ```
