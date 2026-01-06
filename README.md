@@ -2,9 +2,7 @@
 
 This repository contains the implementation of "A Topology-Preserving Coreset for Kernel Regression in Scientific Visualization", accepted to PacificVis 2026 TVCG Journal track.
 
-`coreset_kr_2d.py` implements coreset for kernel regression based on gradient descent optimization for 2D scalar field data. The script constructs and optimizes coresets (compressed representations of large datasets) that preserve the kernel regression behavior of the original data. 
-
-`coreset_kr_3d.py` implements coreset for kernel regression based on gradient descent optimization for 3D scalar field data. 
+`coreset_kr.py` implements coreset for kernel regression based on gradient descent optimization for 2D scalar field data. The script constructs and optimizes coresets (compressed representations of large datasets) that preserve the kernel regression behavior of the original data. 
 
 ## 
 
